@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OTP generator</title>
+
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <!-- starting screen  -->
+    <div class="generator">
+        <h1>
+            OTP Generator
+        </h1>
+        <button class="getOtp">Get OTP</button>
+    </div>
+
+     <!-- otp screen  -->
+      <div class="screen">
+        <!-- otp  -->
+     <div class="otp hide"></div>
+    <!-- otp verification  -->
+     <div class="verification hide">
+        <h1>
+            OTP Verification
+        </h1>
+        <p>
+            Enter the 6-digit code sent to your device
+        </p>
+        <div class="time">
+            Time remaining: 01:00
+        </div>
+        <input type="text" class="EnterOtp">
+       <div class="buttons">
+        <button class="verify" type="submit">Verify</button>
+       <button class="reSend">Resend code</button>
+       </div>
+        </div>
+     </div>
+      </div>
+
+     <script src="./script.js"></script>
+</body>
+
+</html>
