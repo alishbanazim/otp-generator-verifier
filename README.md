@@ -2,6 +2,9 @@
 
 A simple OTP (One-Time Password) Generator and Verification project built using **HTML**, **CSS**, and **JavaScript**.
 
+Live demo
+https://alishbanazim.github.io/otp-generator-verifier/
+
 ## Features
 
 * Generate a random 6-digit OTP
